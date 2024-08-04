@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url('/images/white-bg.jpg');
+    background-image: url('/assets/white-bg-1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ body {
     place-items: center;
     width: 90%;
     height: 80px;
-    background-image: url('/images/navbar-bg.png');
+    background-image: url('/assets/navbar-bg.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
@@ -254,7 +254,7 @@ body {
 .footer {
     height: 300px;
     width: 100%;
-    background-image: url('/images/navbar-bg.png');
+    background-image: url('/assets/navbar-bg.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
