@@ -126,7 +126,7 @@ body {
 
 /*Main Code*/
 .header-space {
-    height: 65px;
+    height: 160px;
     width: 100%;
 }
 
@@ -136,115 +136,40 @@ body {
     display: flex;
 }
 
-.lps-container {
-    width: 50%;
-    height: 100vh;
-    display: grid;
-    place-items: center;
-}
-
-.intro-container {
-    height: 600px;
-    width: 600px;
-    display: grid;
-    place-items: center;
-}
-
-#intro-container-img {
-    height: 400px;
-    width: 400px;
-}
-
-#intro-paragraph {
-    font-family: Poppins;
-    font-size: 1em;
-    text-align: center;
-}
-
-#intro-btns {
-    width: 450px;
-    height: 50px;
+#landing-page-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-#intro-btns a {
-    text-decoration: none;
+.lps {
+    height: 65%;
+    width: 40%;
+}
+
+#lps-1 {
+    display: grid;
+    place-content: center;
+}
+
+#lps-content h1, 
+#lps-content p {
+    font-family: Poppins;
     color: #252525;
-    font-size: 1.2em;
-    padding: 5px 10px;
-    border: 5px solid #252525;
-    border-radius: 30px;
-    transition: 0.3s;
-    font-family: Poppins;
-    font-weight: 700;
 }
 
-#intro-btns a:hover {
-    border-color: #FFD700;
-    color: #FFD700;
+#lps-content h1 {
+    font-variant: small-caps;
+    font-size: 2em;
 }
 
-.slider {
-    background-color: #FFD700;
-    position: absolute;
-    border-radius: 40px;
-    width: 600px;
-    top: 25%;
-    left: 55%;
-    z-index: 50;
-    overflow: hidden;
-    box-shadow: 5px 5px 20px 5px rgb(25, 25, 25);
+#lps-2 {
+    height: 65%;
+    width: 3px;
+    background-color: #252525;
 }
 
-.images {
-    display: flex;
-}
-
-.images img {
-    height: 400px;
-    width: 600px;
-    border-radius: 40px;
-}
-
-.images input {
-    display: none;
-}
-
-.dots {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-}
-
-.dots label {
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: solid #252525 3px;
-    cursor: pointer;
-    transition: all 0.15s ease;
-    margin: 5px;
-}
-
-.dots label:hover {
-    background: #252525;
-}
-
-#img1:checked ~ .m1 {
-    margin-left: 0;
-}
-
-#img2:checked ~ .m2 {
-    margin-left: -100%;
-}
-
-#img3:checked ~ .m3 {
-    margin-left: -200%;
-}
-
-#img4:checked ~ .m4 {
-    margin-left: -300%;
+#lps-3 {
+    background-color: #F63E3E;
 }
 
 /*Footer Code*/
