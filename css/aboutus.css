@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Deadhead Rough",fantasy;
-    user-select: none;
 }
 
 body {
@@ -111,7 +110,6 @@ body {
     color: white;
     font-size: 1.5em;
     font-weight: 700;
-
 }
 
 #login-btn:hover {
@@ -132,14 +130,14 @@ body {
 
 .section {
     width: 100%;
-    height: 80vh;
-    display: flex;
+    height: 100vh;
 }
 
 #landing-page-section {
     display: flex;
     justify-content: space-around;
     transform: translate(0px, 10vh);
+    height: 80vh;
 }
 
 .lps {
@@ -202,6 +200,80 @@ body {
     font-size: 2em;
     font-variant: small-caps;
     font-family: Poppins;
+}
+
+/*Testimonials Code*/
+#testimonials-title {
+    width: 100%;
+    height: 620px;
+    background-image: url('../assets/navbar-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+#testimonials-h1 {
+    color: #FFD700;
+    font-variant: small-caps;
+    font-family: Poppins;
+    font-size: 2em;
+    margin-top: 5vh;
+}
+
+#testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+}
+
+.tes {
+    width: 40%;
+    display: grid;
+    place-items: center;
+}
+
+.figure-testimonials img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+}
+
+.figure-testimonials figcaption {
+    text-align: center;
+    color: white;
+}
+
+#t1, #t2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pte-container {
+    height: 200px;
+    width: 60%;
+    display: grid;
+    place-items: center;
+}
+
+#t1 p, #t2 p {
+    font-size: 1em;
+    font-family: Poppins;
+    color: white;
+}
+
+#t2 p {
+    text-align: right;
+}
+
+#tes-2 {
+    height: 75%;
+    width: 3px;
+    background-color: white;
+    margin-top: 75px;
 }
 
 /*Footer Code*/
