@@ -203,6 +203,10 @@ body {
 }
 
 /*Testimonials Code*/
+#testimonials {
+    height: 620px;
+}
+
 #testimonials-title {
     width: 100%;
     height: 620px;
@@ -274,6 +278,34 @@ body {
     width: 3px;
     background-color: white;
     margin-top: 75px;
+}
+
+/*Barbers Code*/
+#barbers {
+    display: grid;
+    place-items: center;
+}
+
+#barbers-container {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barber {
+    height: 100%;
+    width: 250px;
+    background-image: url('../assets/navbar-bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.barber:hover {
+    transform: scale(1.1);
 }
 
 /*Footer Code*/
