@@ -132,13 +132,14 @@ body {
 
 .section {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
 }
 
 #landing-page-section {
     display: flex;
     justify-content: space-around;
+    transform: translate(0px, 10vh);
 }
 
 .lps {
@@ -172,6 +173,7 @@ body {
     width: 35%;
     display: grid;
     place-items: center;
+    background-color: #F63E3E;
 }
 
 #lps-3-container {
@@ -180,6 +182,7 @@ body {
     display: flex;
     justify-content: space-between;
     line-height: 3;
+    transform: translate(0px, -50px);
 }
 
 #lps-3-1 img, 
