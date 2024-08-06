@@ -169,7 +169,37 @@ body {
 }
 
 #lps-3 {
-    background-color: #F63E3E;
+    width: 35%;
+    display: grid;
+    place-items: center;
+}
+
+#lps-3-container {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 3;
+}
+
+#lps-3-1 img, 
+#lps-3-2 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+    box-shadow: 3px 3px 10px #252525;
+}
+
+#lps-3-1, 
+#lps-3-2 {
+    text-align: center;
+}
+
+#lps-3-1 h1, 
+#lps-3-2 h1 {
+    font-size: 2em;
+    font-variant: small-caps;
+    font-family: Poppins;
 }
 
 /*Footer Code*/
