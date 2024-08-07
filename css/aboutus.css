@@ -273,17 +273,21 @@ body {
     text-align: right;
 }
 
-#tes-2 {
-    height: 75%;
-    width: 3px;
-    background-color: white;
-    margin-top: 75px;
-}
-
 /*Barbers Code*/
 #barbers {
     display: grid;
     place-items: center;
+}
+
+#barber-h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#barber-h1 h1 {
+    font-variant: small-caps;
+    font-family: Poppins;
+    font-size: 2em;
 }
 
 #barbers-container {
@@ -302,10 +306,30 @@ body {
     background-repeat: no-repeat;
     border-radius: 25px;
     transition: 0.3s;
+    display: grid;
+    place-items: center;
 }
 
 .barber:hover {
     transform: scale(1.1);
+}
+
+.barber img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.barber figcaption {
+    text-align: center;
+    color: #FFD700;
+}
+
+.barber p {
+    text-align: center;
+    width: 95%;
+    color: white;
+    font-family: Poppins;
 }
 
 /*Footer Code*/
@@ -415,13 +439,23 @@ body {
     place-items: center;
 }
 
-#top-btn a img {
-    width: 50px;
-    height: 50px;
-    transition: 0.3s;
+#top-btn-link {
+    transition: opacity 0.5s ease-in-out;
 }
 
-#top-btn a img:hover {
+#top-btn-link img {
+    height: 50px;
+    width: 50px;
+}
+
+#top-btn-link img#top-gold {
+    display: none;
+}
+#top-btn-link:hover img#top-white {
+    display: none;
+}
+#top-btn-link:hover img#top-gold {
+    display: inline;
     transform: scale(1.1);
 }
 
