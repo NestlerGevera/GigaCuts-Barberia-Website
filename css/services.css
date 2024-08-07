@@ -1,0 +1,274 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/ffe66f1f477fe14d4460f1558fd58b91?family=Deadhead+Rough);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Deadhead Rough",fantasy;
+}
+
+body {
+    background-image: url('../assets/white-bg-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Header Code*/
+.header {
+    position: fixed;
+    top: 5%;
+    height: 80px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    z-index: 100;
+}
+
+#navbar-container {
+    display: flex;
+    place-items: center;
+    width: 90%;
+    height: 80px;
+    background-image: url('../assets/navbar-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50px;
+    justify-content: space-around;
+}
+
+#logo-container {
+    transition: 0.3s;
+    display: flex;
+    width: 350px;
+}
+
+#logo-container a {
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#logo-container:hover {
+    transform: scale(1.05);
+}
+
+#logo-container a img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+#navbar {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+#navbar a:hover {
+    color: #FFD700;
+    border-bottom: 3px solid #FFD700;
+}
+
+#session-btn {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#session-btn a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 300;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#session-btn p {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#login-btn:hover {
+    color: #F63E3E;
+    border-bottom: 3px solid #F63E3E;
+}
+
+#signup-btn:hover {
+    color: #097BE3;
+    border-bottom: 3px solid #097BE3;
+}
+
+/*Main Code*/
+.header-space {
+    height: 160px;
+    width: 100%;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+/*Footer Code*/
+.footer {
+    height: 300px;
+    width: 100%;
+    background-image: url('../assets/navbar-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer-section {
+    height: 300px;
+    width: 100%;
+}
+
+#footer-container {
+    padding-top: 30px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-sec-1 {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    width: 750px;
+}
+
+#footer-info-container {
+    height: 200px;
+}
+
+#footer-info {
+    transition: 0.3s;
+    width: 350px;
+    display: flex;
+}
+
+#footer-info a {
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#footer-info:hover {
+    transform: scale(1.05);
+}
+
+#footer-info a img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+#footer-info-paragraph {
+    font-family: Poppins;
+    font-size: 1em;
+    color: white;
+}
+
+.socmed-icons {
+    height: 30px;
+    width: 300px;
+}
+
+.socmed-icons img {
+    height: 30px;
+    width: 30px;
+}
+
+#nav-links {
+    height: 250px;
+    width: 150px;
+    margin-right: 150px;
+    line-height: .8;
+}
+
+#nav-links h1 {
+    color: white;
+    font-family: Poppins;
+}
+
+#nav-links-container a {
+    display: block;
+    text-decoration: none;
+    font-family: Poppins;
+    color: white;
+    transition: 0.3s ease;
+    line-height: 2;
+}
+
+#nav-links-container a:hover {
+    transform: translate(10px, 0px);
+    color: #FFD700;
+}
+
+#top-btn {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+}
+
+#top-btn-link {
+    transition: opacity 0.5s ease-in-out;
+}
+
+#top-btn-link img {
+    height: 50px;
+    width: 50px;
+}
+
+#top-btn-link img#top-gold {
+    display: none;
+}
+
+#top-btn-link:hover img#top-white {
+    display: none;
+}
+
+#top-btn-link:hover img#top-gold {
+    display: inline;
+    transform: scale(1.1);
+}
+
+#copyright {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#copyright p {
+    font-family: Poppins;
+    font-size: 1.2em;
+}
