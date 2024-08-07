@@ -151,7 +151,7 @@ body {
 }
 
 #lps-content h1, 
-#lps-content p {
+#lps-content summary {
     font-family: Poppins;
     color: #252525;
 }
