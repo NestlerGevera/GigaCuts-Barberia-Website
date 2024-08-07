@@ -34,9 +34,9 @@ body {
     width: 90%;
     height: 80px;
     background-image: url('../assets/navbar-bg.png');
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     border-radius: 50px;
     justify-content: space-around;
 }
