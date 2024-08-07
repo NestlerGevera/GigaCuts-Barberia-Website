@@ -451,9 +451,11 @@ body {
 #top-btn-link img#top-gold {
     display: none;
 }
+
 #top-btn-link:hover img#top-white {
     display: none;
 }
+
 #top-btn-link:hover img#top-gold {
     display: inline;
     transform: scale(1.1);
